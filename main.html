@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mont</title>
+    <!-- min .css for crausel -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+        integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+        crossorigin="anonymous" />
+    <!-- for crausel link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+        integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+        crossorigin="anonymous" />
+    <link rel="stylesheet" href="./Asset/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./Asset/style.cs/style1.css">
+</head>
+<style>
+    body{
+        overflow-x: hidden;
+    }
+      a{
+            text-decoration: none;
+            color: black;
+        }
+        a:hover{
+            color: black;
+            text-decoration: none;
+
+        }
+        .card-title{
+            transform: scale(1.4);
+        }
+        /* .card{
+            background: transparent;
+        } */
+         @media screen and (max-width:768px){
+			 .cont{
+                 height: 100%;
+                 overflow-x: hidden;
+             }
+             .top{
+                 transform: scale(0.8);
+                 margin-top: 30px;
+             }.main3{
+                 margin-left: 0;
+             }
+
+		 } 
+</style>
+<body>
+        <div class="container-fluid cont" style="height: 100vh;width
+                : 100%; background-image: url(./Asset/images/bot.png.crdownload);
+                background-size: cover;">
+    
+            <nav id="navbar-example2" class="navbar navbar-light bg-transparent">
+                <a class="navbar-brand" href="#">
+                    <img src="./Asset/images/logo.png" alt="" width="200">
+                </a>
+            </nav>
+
+            <div class="main2" style="height: 100vh; margin: auto;width: 100%;">
+
+            <div class="top" style="text-align: center;">
+                <h1 style="color: brown;transform: scale(2.7);font-weight: bold;">ناظرہ</h1>
+            </div>
+
+            <br><br><br>
+    
+          
+        <div  class="container owl-carousel owl-theme main3">
+            
+            <div class="item">
+                <a href="./Asset/classes/index1.html">
+                <div class="card" style="width: 17rem;">
+                    <div class="card-body">
+                        <h1 class="card-title" style="color: green;">دعائیں</h1>
+                    </div>
+                    <img src="./Asset/images/surat2.gif" class="card-img-top" alt="...">
+                    
+                </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="./Asset/classes/index2.html">
+                <div class="card" style="width: 17rem;">
+                    <div class="card-body">
+                        <h1 class="card-title" style="color: blue;">قرآنی سورتیں‎‎</h1>
+                    </div>
+                    <img src="./Asset/images/Ayaat.gif" class="card-img-top" alt="...">
+                   
+                </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="./Asset/classes/index3.html">
+                <div class="card" style="width: 17rem;">
+                    <div class="card-body">
+                        <h1 class="card-title" style="color: red;">کلمے</h1>
+                    </div>
+                    <img src="./Asset/images/kalme.gif" class="card-img-top" alt="...">
+                    
+                </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="./Asset/classes/index4.html">
+                <div class="card" style="width: 17rem;">
+                    <div class="card-body">
+                        <h1 class="card-title" style="color: purple;">آداب</h1>
+                    </div>
+                    <img src="./Asset/images/surat.gif" class="card-img-top" alt="...">
+                    
+                </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    
+
+
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+            integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+            crossorigin="anonymous"></script>
+        <script src="./assets/main.js"></script>
+        <script>
+            $('.owl-carousel').owlCarousel({
+                    loop: true,
+                    margin: 100,
+                    nav: true,
+                    autoplay: true,
+                    autoplayTimeout: 2000,
+                    responsive: {
+                        0: {
+                            items: 1
+                        },
+                        600: {
+                            items: 2
+                        },
+                        1000: {
+                            items: 3
+                        }
+                    }
+                })
+        </script>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+  <!-- classes-section -->
+<!--     
+            <div class="cards d-flex justify-content-around row">
+                
+                <div class="card bg-transparent" style="width: 20rem;">
+                    <a id="click" href="./Asset/classes/index1.html">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: green;">دعائیں</h5>
+                        <div class="img2">
+                            <img src="./Asset/images/surat2.gif" alt="" width="300rem">
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card surat" style="width: 18rem;">
+                    <a href="./Asset/classes/index2.html">
+                    <div class="card-body">
+                        <h5 class="card-title" style="color: blue;">سورة‎</h5>
+                        <div class="img2">
+                            <img src="./Asset/images/Ayaat.gif" alt="" width="300">
+                        </div>
+                    </div>
+                    </a>
+                </div>
+                <div class="card kalme" style="width: 18rem;">
+                    <a href="./Asset/classes/index3.html">
+                    <div class="card-body" style="color: red;">
+                        <h5 class="card-title">کلمے</h5>
+                        <div class="img2">
+                            <img src="./Asset/images/kalme.gif" alt="" width="300">
+                        </div>
+                    </div>
+                    </a>
+                </div>
+    
+            </div>
+
+
+            
+
+            <div class="cards d-flex justify-content-around row">
+            
+                <div class="card bg-transparent" style="width: 20rem;">
+                    <a id="click" href="./Asset/classes/index1.html">
+                        <div class="card-body">
+                            <h5 class="card-title" style="color: green;">دعائیں</h5>
+                            <div class="img2">
+                                <img src="./Asset/images/surat2.gif" alt="" width="300rem">
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+    
+    
+        </div> -->
+<!-- GR3D87nNipoO5jodLAim PASSWORD -->

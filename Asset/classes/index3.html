@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E.C.D 1</title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../style.cs/style1.css">
+</head>
+<style>
+    #incre {
+        background-color: #3a0ca3;
+        color: white;
+        font-size: 4rem;
+        padding: 2px 30px 2px 30px;
+        border: none;
+        box-shadow: 2px 2px 10px black;
+        outline: none;
+        border-radius: 20px;
+        font-style: italic;
+        margin-top: -50px;
+    }
+
+    .play {
+        width: 100%;
+        text-align: center;
+    }
+
+    .trans2 {
+        width: 85%;
+        text-align: end;
+        margin-top: -50px;
+    }
+
+    #incre {
+        transform: scale(0.5);
+    }
+
+    @media screen and (max-width:768px) {
+        .cont {
+            height: 100%;
+            overflow-x: hidden;
+            background-position: top;
+        }
+
+        #head {
+            transform: scale(0.9);
+        }
+
+        #duaimg {
+            transform: scale(0.7);
+        }
+
+        .trans2 {
+            width: 190%;
+        }
+    }
+</style>
+
+<body>
+    <div class="container-fluid cont"
+        style="height: 100vh; background-image: url(../images/bk1.jpg);background-size: cover;">
+        <br><br>
+
+        <div class="head d-flex justify-content-center" style="transform: scale(1.5);color: green;">
+            <h1 id="head">کلمہ</h1>
+        </div>
+
+        <br>
+
+        <div class="dua1 d-flex justify-content-center" style="transform: scale(1);">
+            <img id="duaimg" src="../images/kalma1.jpg" alt="">
+        </div>
+
+        <br>
+        <div class="row">
+
+            <div class="play">
+                <img id="img2" src="../images/play6.png" alt="" width="100">
+            </div>
+            <div class="trans2">
+                <button id="incre">Next</button>
+            </div>
+
+        </div>
+
+    </div>
+    </div>
+
+    <audio id="audio">
+        <source src="../audio/1st_kalima.mp3" type="audio/ogg">
+    </audio>
+
+    <script src="../javascript/main3.js"></script>
+</body>
+
+</html>
